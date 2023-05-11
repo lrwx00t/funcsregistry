@@ -10,4 +10,5 @@ Adding a new function to register is as simple as adding a new struct in the `re
 demo1 registered.. {}
 demo2 registered.. {}
 demo3 registered.. {}
+demo4 registered.. {}
 ```

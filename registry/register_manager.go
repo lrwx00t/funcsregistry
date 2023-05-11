@@ -8,13 +8,8 @@ type Register interface {
 	Demo()
 }
 
-func StartRegisteration() {
-	d1 := Demo1{}
-	d2 := Demo2{}
-	d3 := Demo3{}
-	RegisterFunc(d1)
-	RegisterFunc(d2)
-	RegisterFunc(d3)
+func StartRegisteration(r Register) {
+	RegisterFunc(r)
 }
 
 // RegisterFunc can be configured to return the target func

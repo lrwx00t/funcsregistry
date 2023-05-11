@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	registry.StartRegisteration()
+	// registry.StartRegisteration()
 	for _, r := range registry.Regs {
 		r.Demo()
 	}

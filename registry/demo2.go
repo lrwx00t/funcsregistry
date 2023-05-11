@@ -7,8 +7,7 @@ import (
 type Demo2 struct{}
 
 func init() {
-	var d Demo2
-	_ = Register(d)
+	StartRegisteration(Demo2{})
 }
 
 func (d Demo2) Demo() {
