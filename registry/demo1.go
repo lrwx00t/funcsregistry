@@ -8,7 +8,7 @@ type Demo1 struct{}
 
 func init() {
 	var d Demo1
-	fmt.Println(Register(d))
+	_ = Register(d)
 }
 
 func (d Demo1) Demo() {
